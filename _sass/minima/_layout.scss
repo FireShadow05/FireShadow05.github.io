@@ -1,18 +1,13 @@
-/**
- * Site header
- */
 .site-header {
-  border-top: 5px solid $border-color-03;
+  // border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
-
-  // Positioning context for the mobile navigation icon
   position: relative;
 }
 
 .site-title {
-  @include relative-font-size(1.625);
+  @include relative-font-size(1.5);
   font-weight: 300;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -24,14 +19,18 @@
 
   &,
   &:visited {
-    color: $site-title-color;
+    color: $text-color; // Change this to match the color of .page-link
+    text-decoration: none; // Ensure no underline, similar to .page-link
+  }
+
+  &:hover {
+    color: $text-color; // Ensure hover color matches .page-link
   }
 }
 
 .site-nav {
-  position: absolute;
-  top: 9px;
-  right: $spacing-unit * .5;
+  float: left; // Change from absolute to float left
+  margin-left: 20px; // Add some margin to separate from the title
   background-color: $background-color;
   border: 1px solid $border-color-01;
   border-radius: 5px;
@@ -79,7 +78,6 @@
     display: block;
     padding: 5px 10px;
 
-    // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 0;
     }
@@ -88,7 +86,7 @@
 
   @media screen and (min-width: $on-medium) {
     position: static;
-    float: right;
+    float: left; // Change from float right to float left
     border: none;
     background-color: inherit;
 
@@ -116,8 +114,45 @@
   }
 }
 
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 $spacing-unit;
+}
 
+.page-container {
+  border: 1px solid var(--minima-border-color-01);
+  padding: $spacing-unit;
+  margin: $spacing-unit auto;
+  background-color: var(--minima-background-color);
+  color: var(--minima-text-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+  position: relative;
+  overflow: hidden;
 
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  // &::before {
+  //   top: 0;
+  //   left: 0;
+  //   background: linear-gradient(to left, rgba(0, 0, 0, 0.3), transparent);
+  //   width: 5px;
+  // }
+
+  // &::after {
+  //   bottom: 0;
+  //   right: 0;
+  //   background: linear-gradient(to right, rgba(0, 0, 0, 0.3), transparent);
+  //   width: 5px;
+  // }
+}
 /**
  * Site footer
  */
@@ -338,4 +373,20 @@
   .one-half {
     width: calc(50% - (#{$spacing-unit} / 2));
   }
+}
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.intro-image {
+  max-width: 250px; /* Adjust the size as needed */
+  margin-right: 20px;
+  border-radius: 10px; /* Optional: Add some rounding to the image corners */
+}
+
+.intro-text {
+  flex: 1;
 }
