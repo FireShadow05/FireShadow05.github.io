@@ -3,7 +3,7 @@ layout: base
 ---
 
 <!-- Updated Font Awesome CDN with correct implementation -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-nKU9zTq1F8Ft0skP7o+bYkwnV0iHJ2vwGi7yRmlM2YXxK+Y6qO3M0F3CUnYYGHRlARjAPSLTVkYBKvbb8rM81w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+html<br><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"><br>
 
 <style>
 :root {
@@ -128,7 +128,6 @@ layout: base
       <a href="mailto:bhardwajdevansh398@gmail.com" title="Email"><i class="fas fa-envelope fa-lg"></i></a>&nbsp;&nbsp;
       <a href="https://scholar.google.com/citations?user=kBHnXToAAAAJ&hl=en" title="Google Scholar"><i class="fas fa-graduation-cap fa-lg"></i></a>&nbsp;&nbsp;
       <a href="https://github.com/FireShadow05" title="GitHub"><i class="fab fa-github fa-lg"></i></a>
-      <i class="fas fa-check-circle fa-2x" style="color: green;"></i>
 
     </p>
   </div>
