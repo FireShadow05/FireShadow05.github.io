@@ -117,7 +117,7 @@ layout: base
   <div class="intro-text">
     <p>I'm Devansh Bhardwaj, I recently graduated from IIT Roorkee, majoring in Electronics and Communication Engineering. My current work spans AI Security, Multi-Agent Systems, and Reinforcement Learning. I loved to do cool things with AI hence my interests are not limited to the aforementioned fields. I thrive on independently-driven projects and have led a lot of impactful works. With a long-term vision of leading AI research initiatives in India, I'm actively seeking full-time roles or research assistantships at top-tier labs where I can contribute meaningfully and grow toward a future PhD.</p>
 
-    <p>Currently, I am working along side <a href="https://zhijing-jin.com/">Prof. Zhijing Jin</a> on Causal AI and AI Safety. I am also working at <a href="https://www.sarvam.ai/">Sarvam.ai</a> as a Rsearch Scientist in their Autonomous Agents team.</p>
+    <p>Currently, I am working along side <a href="https://zhijing-jin.com/">Prof. Zhijing Jin</a> on Causal AI and AI Safety. I am also working at <a href="https://www.sarvam.ai/">Sarvam.ai</a> as a Research Scientist in their Autonomous Agents team.</p>
 
     <p>Previously, I worked on developing a generalized communication protocol for multi agent systems called, Agent Context Protocol, at <a href="https://karthikncode.github.io/">Prof. Karthik Narsimhan's Lab</a>. I worked as an ML Security Researcher at <a href="https://repello.ai/">Repello AI</a>, focusing on automated red-teaming of AI agents. I also worked on video prediction at <a href="https://aero.iisc.ac.in/people/debasish-ghose/">Prof. Debasish Ghose's Lab</a> at IISc Bangalore, under the supervision of <a href="https://sites.google.com/view/meenakshisarkar">Meenakshi Sarkar</a>.</p>
 
